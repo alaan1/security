@@ -1,7 +1,12 @@
+from os import system as syss
 
 token = "5200444372:AAFd-vdXUK23XUIdRvapOOf-5CVJfkCzr00"
 ownerID = int("209191317")
-
+syss("pip install pyrogram")
+syss("pip install tgcrypto asyncio kvsqlite")
+syss("pip install asyncio kvsqlite")
+syss("pip install kvsqlite")
+syss("pip install datetime")
 import asyncio 
 from pyrogram import Client, filters, idle
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, BotCommand
