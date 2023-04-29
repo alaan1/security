@@ -1,4 +1,5 @@
-
+from os import system 
+system("python -m pip install pyrogram tgcrypto asyncio kvsqlite")
 token = "5200444372:AAFd-vdXUK23XUIdRvapOOf-5CVJfkCzr00"
 ownerID = int("209191317")
 import asyncio 
